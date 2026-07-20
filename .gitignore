@@ -1,0 +1,17 @@
+# Donnees (65 Mo+, pas a committer)
+data/
+raw_dataset/
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# IDE / fichiers locaux
+.vscode/
+.ipynb_checkpoints/
+
+# Modeles intermediaires (seul le meilleur, model_tl.keras, est committe)
+model_scratch.keras
+model_augmented.keras
